@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6f70bb02d5c4c525c414b991e78ad492 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6f70bb02d5c4c525c414b991e78ad492" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6f70bb02d5c4c525c414b991e78ad492 = L.map(
+                "map_6f70bb02d5c4c525c414b991e78ad492",
+                {
+                    center: [-23.5505, -46.6333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_16e4a3165dcfc4a5df2c99f9f2f0529c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_16e4a3165dcfc4a5df2c99f9f2f0529c.addTo(map_6f70bb02d5c4c525c414b991e78ad492);
+        
+    
+            var marker_19b6a4370805c11230d058a2c56c7ddc = L.marker(
+                [-23.68029, -46.62443],
+                {}
+            ).addTo(map_6f70bb02d5c4c525c414b991e78ad492);
+        
+    
+        var popup_2e72ba10dbd29dd6ff6223b6aad8759c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de60f89b04379ec5d6c0dd8f4db7994b = $(`<div id="html_de60f89b04379ec5d6c0dd8f4db7994b" style="width: 100.0%; height: 100.0%;">Francisco Anselmo Gomes de Barros - Rua Francisco Anselmo Gomes de Barros</div>`)[0];
+                popup_2e72ba10dbd29dd6ff6223b6aad8759c.setContent(html_de60f89b04379ec5d6c0dd8f4db7994b);
+            
+        
+
+        marker_19b6a4370805c11230d058a2c56c7ddc.bindPopup(popup_2e72ba10dbd29dd6ff6223b6aad8759c)
+        ;
+
+        
+    
+    
+            var marker_5996bb1a80ddb51029b89106066f75c8 = L.marker(
+                [-23.70549, -46.61568],
+                {}
+            ).addTo(map_6f70bb02d5c4c525c414b991e78ad492);
+        
+    
+        var popup_feafa92641785bf6082e4ef9f440e366 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bbd713baf98b7d0677bb310dba4fb53 = $(`<div id="html_0bbd713baf98b7d0677bb310dba4fb53" style="width: 100.0%; height: 100.0%;">Afonso Monteiro da Cruz - Avenida Afonso Monteiro da Cruz</div>`)[0];
+                popup_feafa92641785bf6082e4ef9f440e366.setContent(html_0bbd713baf98b7d0677bb310dba4fb53);
+            
+        
+
+        marker_5996bb1a80ddb51029b89106066f75c8.bindPopup(popup_feafa92641785bf6082e4ef9f440e366)
+        ;
+
+        
+    
+    
+            var marker_7b982293e99270ececd39886da5764fa = L.marker(
+                [-23.67916, -46.56053],
+                {}
+            ).addTo(map_6f70bb02d5c4c525c414b991e78ad492);
+        
+    
+        var popup_1e067dee5689051c3865f84b1475f105 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_625f6e9f6584f47db27238ff7b748675 = $(`<div id="html_625f6e9f6584f47db27238ff7b748675" style="width: 100.0%; height: 100.0%;">da Universidade - Alameda da Universidade</div>`)[0];
+                popup_1e067dee5689051c3865f84b1475f105.setContent(html_625f6e9f6584f47db27238ff7b748675);
+            
+        
+
+        marker_7b982293e99270ececd39886da5764fa.bindPopup(popup_1e067dee5689051c3865f84b1475f105)
+        ;
+
+        
+    
+    
+            var marker_49acac87c575c61d6dce6fc378183178 = L.marker(
+                [-23.67916, -46.56053],
+                {}
+            ).addTo(map_6f70bb02d5c4c525c414b991e78ad492);
+        
+    
+        var popup_722823d5e5cedefc2c0a747814038b7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29afc93eb33bc89261c9718935e0b852 = $(`<div id="html_29afc93eb33bc89261c9718935e0b852" style="width: 100.0%; height: 100.0%;">da Universidade - Alameda da Universidade</div>`)[0];
+                popup_722823d5e5cedefc2c0a747814038b7e.setContent(html_29afc93eb33bc89261c9718935e0b852);
+            
+        
+
+        marker_49acac87c575c61d6dce6fc378183178.bindPopup(popup_722823d5e5cedefc2c0a747814038b7e)
+        ;
+
+        
+    
+    
+            var marker_21a8ed4b90fd8db675ee9bd7b3d7dcef = L.marker(
+                [-23.54426, -46.64265],
+                {}
+            ).addTo(map_6f70bb02d5c4c525c414b991e78ad492);
+        
+    
+        var popup_08c82966a43b19ac5e9784fc2cfe70b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1569b6b220125e2145b87355fb9cdbc8 = $(`<div id="html_1569b6b220125e2145b87355fb9cdbc8" style="width: 100.0%; height: 100.0%;">da República, 53 - Praça da República, 53</div>`)[0];
+                popup_08c82966a43b19ac5e9784fc2cfe70b1.setContent(html_1569b6b220125e2145b87355fb9cdbc8);
+            
+        
+
+        marker_21a8ed4b90fd8db675ee9bd7b3d7dcef.bindPopup(popup_08c82966a43b19ac5e9784fc2cfe70b1)
+        ;
+
+        
+    
+    
+            var marker_0c9e7c082b0d799ec70aca6948d5da2d = L.marker(
+                [-23.69899, -46.5714],
+                {}
+            ).addTo(map_6f70bb02d5c4c525c414b991e78ad492);
+        
+    
+        var popup_64675d170703b01aedb0e8354b171fc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c24ce2e27556b2562e025face60d5ff = $(`<div id="html_2c24ce2e27556b2562e025face60d5ff" style="width: 100.0%; height: 100.0%;">Max Mangels Sênior - Rua Max Mangels Sênior</div>`)[0];
+                popup_64675d170703b01aedb0e8354b171fc7.setContent(html_2c24ce2e27556b2562e025face60d5ff);
+            
+        
+
+        marker_0c9e7c082b0d799ec70aca6948d5da2d.bindPopup(popup_64675d170703b01aedb0e8354b171fc7)
+        ;
+
+        
+    
+    
+            var marker_0c406383ab6a422d6efe8a3c1e8e1b0b = L.marker(
+                [-23.70468, -46.61257],
+                {}
+            ).addTo(map_6f70bb02d5c4c525c414b991e78ad492);
+        
+    
+        var popup_614df807197899e55eacb408c1557ccb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab44f3f7179dcb42b5b4d22b01e85984 = $(`<div id="html_ab44f3f7179dcb42b5b4d22b01e85984" style="width: 100.0%; height: 100.0%;">Vietnamita - Passagem Vietnamita</div>`)[0];
+                popup_614df807197899e55eacb408c1557ccb.setContent(html_ab44f3f7179dcb42b5b4d22b01e85984);
+            
+        
+
+        marker_0c406383ab6a422d6efe8a3c1e8e1b0b.bindPopup(popup_614df807197899e55eacb408c1557ccb)
+        ;
+
+        
+    
+</script>
+</html>
